@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-lpl%kmz!(nt9xh8vp42&@rd6anl=c*9s(-@68!s&l9u)3zo1pi
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "adelya-amanda-mentalhealthtracker.pbp.cs.ui.ac.id"]
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'main'
 ]
 
 MIDDLEWARE = [
